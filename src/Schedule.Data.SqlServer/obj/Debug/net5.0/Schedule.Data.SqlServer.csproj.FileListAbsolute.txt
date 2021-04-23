@@ -1,0 +1,17 @@
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.csprojAssemblyReference.cache
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.AssemblyInfoInputs.cache
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.AssemblyInfo.cs
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.csproj.CoreCompileInputs.cache
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Data.SqlServer.deps.json
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Data.SqlServer.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\ref\Schedule.Data.SqlServer.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Data.SqlServer.pdb
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Data.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Domain.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Data.pdb
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\bin\Debug\net5.0\Schedule.Domain.pdb
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.csproj.CopyComplete
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\ref\Schedule.Data.SqlServer.dll
+H:\Projetos\DotNet\Schedule\src\Schedule.Data.SqlServer\obj\Debug\net5.0\Schedule.Data.SqlServer.pdb

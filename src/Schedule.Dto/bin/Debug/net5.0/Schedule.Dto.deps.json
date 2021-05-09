@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Schedule.Dto/1.0.0": {
+        "runtime": {
+          "Schedule.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Schedule.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

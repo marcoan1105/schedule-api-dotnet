@@ -1,0 +1,12 @@
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\bin\Debug\net5.0\Schedule.Dto.deps.json
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\bin\Debug\net5.0\Schedule.Dto.dll
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\bin\Debug\net5.0\ref\Schedule.Dto.dll
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\bin\Debug\net5.0\Schedule.Dto.pdb
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.csprojAssemblyReference.cache
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.AssemblyInfoInputs.cache
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.AssemblyInfo.cs
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.csproj.CoreCompileInputs.cache
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.dll
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\ref\Schedule.Dto.dll
+H:\Projetos\DotNet\schedule-api-dotnet\src\Schedule.Dto\obj\Debug\net5.0\Schedule.Dto.pdb

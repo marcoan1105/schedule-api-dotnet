@@ -13,7 +13,7 @@ namespace Schedule.Data.SqlServer
 
             services.AddEfCore();
 
-            services.AddDbContext<ScheduleContext, SqlServerScheduleContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ScheduleContext, SqlServerScheduleContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
 
             return services;
         }

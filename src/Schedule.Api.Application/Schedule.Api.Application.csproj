@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -15,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Schedule.Domain\Schedule.Domain.csproj" />
     <ProjectReference Include="..\Schedule.Data.SqlServer\Schedule.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\Schedule.Service\Schedule.Service.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,6 +14,14 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Schedule.Data.Context;
 using Schedule.Data.SqlServer;
+using Schedule.Domain;
+using Schedule.Domain.AutoMap;
+using Schedule.Service;
+using FluentValidation.AspNetCore;
+using Schedule.Domain.Models;
+using FluentValidation;
+using Schedule.Domain.Validations;
+using Schedule.Domain.Notification;
 
 namespace Schedule.Api.Application
 {
@@ -30,7 +38,9 @@ namespace Schedule.Api.Application
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            //services.AddTransient<RequestAnimalDtoValidate>();
+
+            services.AddControllers().AddValidations();         
 
             #region Swegger
             services.AddSwaggerGen(c =>
@@ -42,6 +52,18 @@ namespace Schedule.Api.Application
             #region Database
             services.AddSqlServer(Configuration);
             #endregion
+
+            #region AutoMapper
+            services.ConfigureAutoMapper();
+            #endregion
+
+            #region Services
+            services.AddServices();
+            #endregion
+
+            #region Notification
+            services.AddScoped<INotificationHandler, NotificationHandler>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +73,11 @@ namespace Schedule.Api.Application
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Schedule.Api.Application v1"));
+                app.UseSwaggerUI(c => {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Schedule.Api.Application v1");
+                    c.RoutePrefix = string.Empty;
+                });
+                
             }
 
             app.UseHttpsRedirection();

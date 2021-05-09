@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rSxpuZNwrE4IKZcOy1K4byAJyQ4aTmw8PeuZb4sZESTAIOV/vkHWB3iTQ6GQHIw/k1H7RkR0MAbhwo2NLfdhBA==",
+  "dgSpecHash": "XUk7KdhMfyk6LKa+4RXBG1H3Wj38AnierBeUSPXyKZpdd4pDkUJNeJcNE4gIJ2QobvuXRDwZrPGk2onZxHb1pQ==",
   "success": true,
-  "projectFilePath": "H:\\Projetos\\DotNet\\Schedule\\Schedule.Dto\\Schedule.Dto.csproj",
+  "projectFilePath": "H:\\Projetos\\DotNet\\schedule-api-dotnet\\src\\Schedule.Dto\\Schedule.Dto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

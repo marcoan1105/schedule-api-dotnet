@@ -12,10 +12,10 @@ namespace Schedule.Data.Context
         public DbSet<Animal> Animal { get; set; }
         public DbSet<AnimalType> AnimalType { get; set; }
         public DbSet<Scheduling> Scheduling { get; set; }
+
         public ScheduleContext([NotNullAttribute] DbContextOptions options) : base(options)
         {
         }
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.ApplyConfiguration(new UserMap());
@@ -23,6 +23,7 @@ namespace Schedule.Data.Context
             modelBuilder.ApplyConfiguration(new AnimalMap());
             modelBuilder.ApplyConfiguration(new AnimalTypeMap());
             modelBuilder.ApplyConfiguration(new SchedulingMap());
+
         }
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projetos\\DotNet\\Schedule\\Schedule.Dto\\Schedule.Dto.csproj",
+      "projectUniqueName": "H:\\Projetos\\DotNet\\schedule-api-dotnet\\src\\Schedule.Dto\\Schedule.Dto.csproj",
       "projectName": "Schedule.Dto",
-      "projectPath": "H:\\Projetos\\DotNet\\Schedule\\Schedule.Dto\\Schedule.Dto.csproj",
+      "projectPath": "H:\\Projetos\\DotNet\\schedule-api-dotnet\\src\\Schedule.Dto\\Schedule.Dto.csproj",
       "packagesPath": "C:\\Users\\Marco-Windows\\.nuget\\packages\\",
-      "outputPath": "H:\\Projetos\\DotNet\\Schedule\\Schedule.Dto\\obj\\",
+      "outputPath": "H:\\Projetos\\DotNet\\schedule-api-dotnet\\src\\Schedule.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,7 +31,8 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
